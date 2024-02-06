@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./IG-bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href=".index.css" />
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
-        <title>My dope IG-G</title>
+        <title>My dope FORM</title>
         <meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link
@@ -13,7 +13,7 @@
 			crossorigin="anonymous"/>
         <script src="https://kit.fontawesome.com/685360648f.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="m-5">
         <!-- Div general -->
         <div class="container-fluid border border-secondary border-1 rounded-1 m-2">
              <!-- Div header -->
@@ -61,7 +61,12 @@
                     </div>
                     <div class="col-3">
                         <label for="inputLastName" class="form-label">State</label>
-                        <input type="text" class="form-control" id="inputAddress" >
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pick a state</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
                     </div>
                     <div class="col-3">
                         <label for="inputLastName" class="form-label">Postal code</label>
